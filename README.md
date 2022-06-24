@@ -1,1 +1,1 @@
-# Mavic
+# Проект Mavic
