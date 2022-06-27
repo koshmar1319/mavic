@@ -10,6 +10,12 @@ $(function () {
 
     $('.questions__item').removeClass('questions__item--active');
     $(this).parent().addClass('questions__item--active');
-  })
+  });
+
+  $('#fullpage').fullpage({
+    autoScrolling: true,
+    scrollHorizontally: true,
+    sectionSelector: '.page-section',
+  });
 
 });
