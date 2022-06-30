@@ -47,10 +47,12 @@
 .menu {
   &__list-item {
     display: inline-block;
-
     &+.menu__list-item {
       padding-left: 20px;
     }
+    // &.active a {
+    //   text-decoration: underline;
+    // }
   }
   &__list-phone {
     display: none;
