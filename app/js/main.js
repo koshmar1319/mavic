@@ -30,4 +30,6 @@ $(function () {
     $('.menu__btn').removeClass('menu__btn--active');
     $('.menu__list').removeClass('menu__list--active');
   });
+
+  $('.fp-watermark').remove();
 });

@@ -10,6 +10,14 @@
   right: 0;
   z-index: 10;
 
+  .logo {
+    opacity: 1;
+    transition: opacity .3s;
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
   &__inner {
     display: flex;
     justify-content: space-between;
@@ -41,6 +49,11 @@
     font-size: 16px;
     line-height: 18px;
     @extend %ubuntu-bold;
+    opacity: 1;
+    transition: opacity .3s;
+    &:hover {
+      opacity: 0.6;
+    }
   }
 }
 
@@ -50,9 +63,18 @@
     &+.menu__list-item {
       padding-left: 20px;
     }
-    // &.active a {
-    //   text-decoration: underline;
-    // }
+    &.active a {
+      // text-decoration: underline;
+      padding-bottom: 2px;
+      border-bottom: 1px solid #fff;
+    }
+  }
+  &__list-link {
+    opacity: 1;
+    transition: opacity .3s;
+    &:hover {
+      opacity: 0.6;
+    }
   }
   &__list-phone {
     display: none;
