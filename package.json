@@ -4,13 +4,15 @@
   "description": "start gulp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d app"
   },
   "author": "Vadim Prokopchuk",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.5",
     "del": "^5.0.0",
+    "gh-pages": "^4.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-concat": "^2.6.1",

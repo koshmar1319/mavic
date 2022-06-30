@@ -36,3 +36,5 @@ gulp
 ```
 
 ### Демо:
+
+> Github Pages <br/>[Ссылка на сайт :arrow_lower_right:](https://koshmar1319.github.io/mavic/index.html 'ссылка на сайт')
